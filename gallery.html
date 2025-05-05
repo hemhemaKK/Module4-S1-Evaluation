@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog Website</title>
+    <style>
+       #navbar{
+        height: auto;
+        width: 70%;
+        margin: -60px 0 0 250px;
+        /* border: 2px solid black; */
+       }
+       #navbar>li{
+        display: inline;
+        margin: 20px;
+       }
+       img{
+        margin-left: 150px;
+       }
+       a{
+        text-decoration: none;
+        font-size: large;
+        font-weight: bold;
+       }
+       a:hover{
+        color: black;
+        text-decoration: underline;
+       }
+       button{
+        float: right;
+        background-color: rgb(31, 31, 198);
+        padding: 5px;
+        font-size: large;
+        color: aliceblue;
+        font-family: 'Times New Roman', Times, serif;
+        border-radius: 5px;
+        font-weight:bold;
+       }
+       button:hover{
+        background-color: aqua;
+        color: blue
+       }
+
+       #maincard{
+        margin: auto;
+        width: auto;
+        height: auto;
+        gap: 10px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+       }
+       #maincard img{
+        height: 100%;
+        width: 300px;
+       }
+       #cards1{
+        height: auto;
+        width: 75%;
+        margin: 0 0 0 150px;
+        /* border: 2px solid black; */
+       }
+       #cards1>div{
+        display: inline-block;
+        height: 200px;
+        border: 2px solid black;
+        margin-bottom: 20px;
+        background-color: rgb(212, 212, 212);
+        padding:5px;
+       }
+       #cards1 h3, p{
+        margin-left: 10px;
+       }
+       #cards2{
+        height: auto;
+        width: 75%;
+        /* border: 2px solid black; */
+       }
+       #cards2>div{
+        height: 200px;
+        margin-bottom: 10px;
+        background-color: rgb(197, 197, 197);
+        padding:5px;
+       }
+       #cards2 h3{
+        margin-left: 10px;
+       }
+       #cards1>div:hover{
+        box-shadow: 10px 5px 5px rgb(8, 8, 8);
+       }
+       #cards2>div:hover{
+        box-shadow: 10px 5px 5px rgb(8, 8, 8);
+       }
+       #cards1 a{
+        color: antiquewhite;
+       }
+       #cards2 a{
+        color: antiquewhite;
+       }
+       /*----footer----*/
+       #social img{
+        height: 50px;
+        display:inline;
+        border-radius: 50%;
+       }
+       #contact{
+        margin-left: 150px;
+        width:78%;
+        height: 100%;
+        margin-bottom: 50px;
+       }
+       #contact button{
+        background-color: rgb(63, 63, 63);
+        color: aliceblue;
+        padding: 5px;
+        border-radius: 5px;
+        float: left;
+        margin-top: 10px;
+       }
+       footer h3{
+        background-color: rgb(0, 0, 220);
+        color: aliceblue;
+        height: 30px;
+        margin: auto;
+        width: 78%;
+        margin-left:150px;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://img.freepik.com/free-vector/detailed-travel-logo_23-2148627268.jpg?w=2000" alt="logo" height=100px;/>
+        <nav id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destination.html">Destination</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <button type="submit"><a href="#contact"><font color="white">Contact Us</font></a></button>
+        </nav>
+    </header>
+    <main>
+        <center><h1>Some of the famous Spots</h1></center>
+        <div id="maincard">
+        <div id="cards1">
+            <div>
+              
+              
+               <img src="https://th.bing.com/th/id/OIP.YbSfNrF-GgygmzUAkCkhigHaFG?w=232&h=180&c=7&r=0&o=7&cb=iwp1&dpr=1.3&pid=1.7&rm=3" alt="">
+              
+            </div>
+            <div>
+                  <img src="https://th.bing.com/th/id/OIP._ketUCZp5wwcIjsExvL7HwHaE8?w=222&h=180&c=7&r=0&o=7&cb=iwp1&dpr=1.3&pid=1.7&rm=3" alt="">
+            </div>
+            <div>
+                <img src="https://th.bing.com/th/id/OIP.kP65VuQlI-4KNodHRnkoBAHaDm?w=314&h=180&c=7&r=0&o=7&cb=iwp1&dpr=1.3&pid=1.7&rm=3" alt="">
+            </div>
+            <div>
+                <img src="https://th.bing.com/th/id/OIP.uHq1l5Kpwy5zjO1bDKWShAHaEK?w=253&h=180&c=7&r=0&o=7&cb=iwp1&dpr=1.3&pid=1.7&rm=3" alt="">
+            </div>
+        </div>
+        <div id="cards2">
+            <div>
+              <img src="https://th.bing.com/th/id/OIP.WkHtQnyCg2oXAAzSvzBLsAHaHa?w=193&h=194&c=7&r=0&o=7&cb=iwp1&dpr=1.3&pid=1.7&rm=3" alt=""> 
+            </div>
+            <div>
+                   <img src="https://th.bing.com/th/id/OIP._fsHRJTRgPis0vF19lCTPgHaEU?w=227&h=180&c=7&r=0&o=7&cb=iwp1&dpr=1.3&pid=1.7&rm=3" alt="">
+            </div>
+            <div>
+                <img src="https://th.bing.com/th/id/OIP.5eF_Pzdw63o5cQEIv4kjaAHaFL?w=227&h=180&c=7&r=0&o=7&cb=iwp1&dpr=1.3&pid=1.7&rm=3" alt="">
+            </div>
+            <div>
+                 <img src="https://th.bing.com/th?q=Tourist+City&w=120&h=120&c=1&rs=1&qlt=70&o=7&cb=1&dpr=1.3&pid=InlineBlock&rm=3&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247" alt="">
+            </div>
+        </div>
+
+    </div>
+    </main>
+
+    <footer>
+        <div id="footer">
+        <div id="contact">
+            <h1>Contact Us</h1>
+            <fieldset>
+                <legend>Name</legend>
+                <input type="text" placeholder="Enter your Name">
+            </fieldset>
+            <fieldset>
+                <legend>Email</legend>
+                <input type="text" placeholder="Enter your email">
+            </fieldset>
+            <fieldset>
+                <legend>Message</legend>
+                <input type="text" placeholder="Message">
+            </fieldset>
+            <button type="submit">Submit</button>
+        </div>
+        <center><h3>Connect With Social Media</h3></center><br>
+        <div id="social">
+            <center>
+           <img src="https://freepngimg.com/download/whatsapp/77099-whats-icons-text-symbol-computer-messaging-whatsapp.png" alt="">
+           <img src="https://th.bing.com/th/id/OIP.NUFU5mhqhqOr82Ge-CwjawHaHv?cb=iwp1&rs=1&pid=ImgDetMain" alt="">
+           <img src="https://th.bing.com/th/id/OIP.TpoVaqJ_M7VLzNuH7nUbiQHaHk?o=7&cb=iwp1rm=3&rs=1&pid=ImgDetMain" alt="">
+           <img src="https://i.pinimg.com/736x/91/8b/20/918b20dc0aa716e09fd0a58f9dd8e720.jpg" alt="">
+        </center>
+        </div>
+        <br>
+    </div>
+       <center> <h3>
+        copyright@masai2025.com
+    </h3></center>
+    </footer>
+</body>
+</html>
