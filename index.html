@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog Website</title>
+    <style>
+       #navbar{
+        height: auto;
+        width: 70%;
+        margin: -60px 0 0 250px;
+        /* border: 2px solid black; */
+       }
+       #navbar>li{
+        display: inline;
+        margin: 20px;
+       }
+       img{
+        margin-left: 150px;
+       }
+       a{
+        text-decoration: none;
+        font-size: large;
+        font-weight: bold;
+       }
+       a:hover{
+        color: black;
+        text-decoration: underline;
+       }
+       button{
+        float: right;
+        background-color: rgb(31, 31, 198);
+        padding: 5px;
+        font-size: large;
+        color: aliceblue;
+        font-family: 'Times New Roman', Times, serif;
+        border-radius: 5px;
+        font-weight:bold;
+       }
+       button:hover{
+        background-color: aqua;
+        color: blue
+       }
+
+       #heading{
+        margin:40px 0 0 150px;
+        color: rgb(255, 255, 255);
+        padding: 5px;
+        font-size: 28px;
+        width: 78%;
+        position: relative;
+       }
+       .text{
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.9); 
+       }
+       #maincard{
+        margin: auto;
+        width: auto;
+        height: auto;
+        gap: 10px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+       }
+       #cards1{
+        height: auto;
+        width: 75%;
+        margin: 0 0 0 150px;
+        /* border: 2px solid black; */
+       }
+       #cards1>div{
+        display: flex;
+        height: 200px;
+        /* border: 2px solid black; */
+        margin-bottom: 10px;
+        background-color: rgb(167, 167, 167);
+        padding:5px;
+       }
+       #cards1 h3, p{
+        margin-left: 10px;
+       }
+       #cards1>div>iframe{
+        margin-left: auto;
+       }
+       #cards1>div>img{
+        height: 100px;
+       }
+       #cards2{
+        height: auto;
+        width: 75%;
+        /* border: 2px solid black; */
+       }
+       #cards2>div{
+        display: flex;
+        height: 200px;
+        /* border: 2px solid black; */
+        margin-bottom: 10px;
+        background-color: rgb(167, 167, 167);
+        padding:5px;
+       }
+       #cards2 h3, p{
+        margin-left: 10px;
+       }
+       #cards2>div>iframe{
+        margin-left: auto;
+       }
+       #cards2>div>img{
+        height: 100px;
+       }
+       iframe{
+        height: 100%;
+        width: 50%;
+       }
+
+       /*----footer----*/
+       #social img{
+        height: 50px;
+        display:inline;
+        border-radius: 50%;
+       }
+       #contact{
+        margin-left: 150px;
+        width:78%;
+        height: 100%;
+        margin-bottom: 50px;
+       }
+       #contact button{
+        background-color: rgb(63, 63, 63);
+        color: aliceblue;
+        padding: 5px;
+        border-radius: 5px;
+        float: left;
+        margin-top: 10px;
+       }
+       footer h3{
+        background-color: rgb(0, 0, 220);
+        color: aliceblue;
+        height: 30px;
+        margin: auto;
+        width: 78%;
+        margin-left:150px;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://img.freepik.com/free-vector/detailed-travel-logo_23-2148627268.jpg?w=2000" alt="logo" height=100px;/>
+        <nav id="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="destination.html">Destination</a></li>
+            <li><a href="#home">Gallery</a></li>
+            <button type="submit"><a href="#contact"><font color="white">Contact Us</font></a></button>
+        </nav>
+    </header>
+    <main>
+        <div id="heading">
+            <video autoplay loop controls width="100%">
+                <source src="./images/video3.mp4" type="video/mp4"/>
+            </video>
+            <div class="text">
+                <h1>Explore the World with Us!!!</h1>
+                <p>Visit our Travel Blog you will feel stress free & share your own experience in this travle blog.</p>
+            </div>
+        </div>
+        <center><h1>Some of the famous Spots</h1></center>
+        <div id="maincard">
+        <div id="cards1">
+            <div>
+              <h3> Visit coffee shop <br></h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31102.57982346927!2d77.56370533220213!3d12.983203516967256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3ded0b360e07%3A0x7a7fb24a41a6b2b3!2sISKCON%20Bangalore!5e0!3m2!1sen!2sin!4v1746428349694!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+            <div>
+                <h3> Visit BreakFast Hotel</h3>
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31102.57982346927!2d77.56370533220213!3d12.983203516967256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3ded0b360e07%3A0x7a7fb24a41a6b2b3!2sISKCON%20Bangalore!5e0!3m2!1sen!2sin!4v1746428349694!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+            <div>
+                <h3> Visit Wonderful Theme Park</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31102.57982346927!2d77.56370533220213!3d12.983203516967256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3ded0b360e07%3A0x7a7fb24a41a6b2b3!2sISKCON%20Bangalore!5e0!3m2!1sen!2sin!4v1746428349694!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+            <div>
+                <h3> Visit Temple </h3>
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31102.57982346927!2d77.56370533220213!3d12.983203516967256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3ded0b360e07%3A0x7a7fb24a41a6b2b3!2sISKCON%20Bangalore!5e0!3m2!1sen!2sin!4v1746428349694!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+        <div id="cards2">
+            <div>
+              <h3> Visit coffee shop <br></h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31102.57982346927!2d77.56370533220213!3d12.983203516967256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3ded0b360e07%3A0x7a7fb24a41a6b2b3!2sISKCON%20Bangalore!5e0!3m2!1sen!2sin!4v1746428349694!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+            <div>
+                <h3> Visit BreakFast Hotel</h3>
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31102.57982346927!2d77.56370533220213!3d12.983203516967256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3ded0b360e07%3A0x7a7fb24a41a6b2b3!2sISKCON%20Bangalore!5e0!3m2!1sen!2sin!4v1746428349694!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+            <div>
+                <h3> Visit Wonderful Theme Park</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31102.57982346927!2d77.56370533220213!3d12.983203516967256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3ded0b360e07%3A0x7a7fb24a41a6b2b3!2sISKCON%20Bangalore!5e0!3m2!1sen!2sin!4v1746428349694!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+            <div>
+                <h3> Visit Temple </h3>
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31102.57982346927!2d77.56370533220213!3d12.983203516967256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3ded0b360e07%3A0x7a7fb24a41a6b2b3!2sISKCON%20Bangalore!5e0!3m2!1sen!2sin!4v1746428349694!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+
+    </div>
+    </main>
+
+    <footer>
+        <div id="footer">
+        <div id="contact">
+            <h1>Contact Us</h1>
+            <fieldset>
+                <legend>Name</legend>
+                <input type="text" placeholder="Enter your Name">
+            </fieldset>
+            <fieldset>
+                <legend>Email</legend>
+                <input type="text" placeholder="Enter your email">
+            </fieldset>
+            <fieldset>
+                <legend>Message</legend>
+                <input type="text" placeholder="Message">
+            </fieldset>
+            <button type="submit">Submit</button>
+        </div>
+        <center><h3>Connect With Social Media</h3></center><br>
+        <div id="social">
+            <center>
+           <img src="https://freepngimg.com/download/whatsapp/77099-whats-icons-text-symbol-computer-messaging-whatsapp.png" alt="">
+           <img src="https://th.bing.com/th/id/OIP.NUFU5mhqhqOr82Ge-CwjawHaHv?cb=iwp1&rs=1&pid=ImgDetMain" alt="">
+           <img src="https://th.bing.com/th/id/OIP.TpoVaqJ_M7VLzNuH7nUbiQHaHk?o=7&cb=iwp1rm=3&rs=1&pid=ImgDetMain" alt="">
+           <img src="https://i.pinimg.com/736x/91/8b/20/918b20dc0aa716e09fd0a58f9dd8e720.jpg" alt="">
+        </center>
+        </div>
+        <br>
+    </div>
+       <center> <h3>
+        copyright@masai2025.com
+    </h3></center>
+    </footer>
+</body>
+</html>
