@@ -50,6 +50,10 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
        }
+       #maincard img{
+        height: 100%;
+        width: 300px;
+       }
        #cards1{
         height: auto;
         width: 75%;
@@ -57,21 +61,15 @@
         /* border: 2px solid black; */
        }
        #cards1>div{
-        display: flex;
+        display: inline-block;
         height: 200px;
-        /* border: 2px solid black; */
-        margin-bottom: 10px;
-        background-color: rgb(167, 167, 167);
+        border: 2px solid black;
+        margin-bottom: 20px;
+        background-color: rgb(212, 212, 212);
         padding:5px;
        }
        #cards1 h3, p{
         margin-left: 10px;
-       }
-       #cards1>div>iframe{
-        margin-left: auto;
-       }
-       #cards1>div>img{
-        height: 100px;
        }
        #cards2{
         height: auto;
@@ -79,27 +77,28 @@
         /* border: 2px solid black; */
        }
        #cards2>div{
-        display: flex;
+        display:inline-block;
         height: 200px;
-        /* border: 2px solid black; */
+        border: 2px solid black;
         margin-bottom: 10px;
-        background-color: rgb(167, 167, 167);
+        background-color: rgb(197, 197, 197);
         padding:5px;
        }
-       #cards2 h3, p{
+       #cards2 h3{
         margin-left: 10px;
        }
-       #cards2>div>iframe{
-        margin-left: auto;
+       #cards1>div:hover{
+        box-shadow: 10px 5px 5px rgb(8, 8, 8);
        }
-       #cards2>div>img{
-        height: 100px;
+       #cards2>div:hover{
+        box-shadow: 10px 5px 5px rgb(8, 8, 8);
        }
-       iframe{
-        height: 100%;
-        width: 50%;
+       #cards1 a{
+        color: antiquewhite;
        }
-
+       #cards2 a{
+        color: antiquewhite;
+       }
        /*----footer----*/
        #social img{
         height: 50px;
@@ -145,46 +144,41 @@
         <div id="maincard">
         <div id="cards1">
             <div>
+              <button type="submit"><a href="https://maps.app.goo.gl/ena4pMUN9bQEP1eu7">Location</a></button>
               <h3> Visit coffee shop <br></h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31102.57982346927!2d77.56370533220213!3d12.983203516967256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3ded0b360e07%3A0x7a7fb24a41a6b2b3!2sISKCON%20Bangalore!5e0!3m2!1sen!2sin!4v1746428349694!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-              </iframe>
+              
+               <img src="https://th.bing.com/th/id/OIP.YbSfNrF-GgygmzUAkCkhigHaFG?w=232&h=180&c=7&r=0&o=7&cb=iwp1&dpr=1.3&pid=1.7&rm=3" alt="">
+              
             </div>
-            <div>
+            <div><button type="submit"><a href="https://maps.app.goo.gl/ena4pMUN9bQEP1eu7">Location</a></button>
                 <h3> Visit BreakFast Hotel</h3>
-                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31102.57982346927!2d77.56370533220213!3d12.983203516967256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3ded0b360e07%3A0x7a7fb24a41a6b2b3!2sISKCON%20Bangalore!5e0!3m2!1sen!2sin!4v1746428349694!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-              </iframe>
+                  <img src="https://th.bing.com/th/id/OIP._ketUCZp5wwcIjsExvL7HwHaE8?w=222&h=180&c=7&r=0&o=7&cb=iwp1&dpr=1.3&pid=1.7&rm=3" alt="">
             </div>
-            <div>
+            <div><button type="submit"><a href="https://maps.app.goo.gl/ena4pMUN9bQEP1eu7">Location</a></button>
                 <h3> Visit Wonderful Theme Park</h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31102.57982346927!2d77.56370533220213!3d12.983203516967256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3ded0b360e07%3A0x7a7fb24a41a6b2b3!2sISKCON%20Bangalore!5e0!3m2!1sen!2sin!4v1746428349694!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-              </iframe>
+                <img src="https://th.bing.com/th/id/OIP.kP65VuQlI-4KNodHRnkoBAHaDm?w=314&h=180&c=7&r=0&o=7&cb=iwp1&dpr=1.3&pid=1.7&rm=3" alt="">
             </div>
-            <div>
+            <div><button type="submit"><a href="https://maps.app.goo.gl/ena4pMUN9bQEP1eu7">Location</a></button>
                 <h3> Visit Temple </h3>
-                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31102.57982346927!2d77.56370533220213!3d12.983203516967256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3ded0b360e07%3A0x7a7fb24a41a6b2b3!2sISKCON%20Bangalore!5e0!3m2!1sen!2sin!4v1746428349694!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
+                <img src="https://th.bing.com/th/id/OIP.uHq1l5Kpwy5zjO1bDKWShAHaEK?w=253&h=180&c=7&r=0&o=7&cb=iwp1&dpr=1.3&pid=1.7&rm=3" alt="">
             </div>
         </div>
         <div id="cards2">
-            <div>
+            <div><button type="submit"><a href="https://maps.app.goo.gl/ena4pMUN9bQEP1eu7">Location</a></button>
               <h3> Visit coffee shop <br></h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31102.57982346927!2d77.56370533220213!3d12.983203516967256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3ded0b360e07%3A0x7a7fb24a41a6b2b3!2sISKCON%20Bangalore!5e0!3m2!1sen!2sin!4v1746428349694!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-              </iframe>
+              <img src="https://th.bing.com/th/id/OIP.WkHtQnyCg2oXAAzSvzBLsAHaHa?w=193&h=194&c=7&r=0&o=7&cb=iwp1&dpr=1.3&pid=1.7&rm=3" alt=""> 
             </div>
-            <div>
+            <div><button type="submit"><a href="https://maps.app.goo.gl/ena4pMUN9bQEP1eu7">Location</a></button>
                 <h3> Visit BreakFast Hotel</h3>
-                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31102.57982346927!2d77.56370533220213!3d12.983203516967256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3ded0b360e07%3A0x7a7fb24a41a6b2b3!2sISKCON%20Bangalore!5e0!3m2!1sen!2sin!4v1746428349694!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-              </iframe>
+                   <img src="https://th.bing.com/th/id/OIP._fsHRJTRgPis0vF19lCTPgHaEU?w=227&h=180&c=7&r=0&o=7&cb=iwp1&dpr=1.3&pid=1.7&rm=3" alt="">
             </div>
-            <div>
+            <div><button type="submit"><a href="https://maps.app.goo.gl/ena4pMUN9bQEP1eu7">Location</a></button>
                 <h3> Visit Wonderful Theme Park</h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31102.57982346927!2d77.56370533220213!3d12.983203516967256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3ded0b360e07%3A0x7a7fb24a41a6b2b3!2sISKCON%20Bangalore!5e0!3m2!1sen!2sin!4v1746428349694!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-              </iframe>
+                <img src="https://th.bing.com/th/id/OIP.5eF_Pzdw63o5cQEIv4kjaAHaFL?w=227&h=180&c=7&r=0&o=7&cb=iwp1&dpr=1.3&pid=1.7&rm=3" alt="">
             </div>
-            <div>
+            <div><button type="submit"><a href="https://maps.app.goo.gl/ena4pMUN9bQEP1eu7">Location</a></button>
                 <h3> Visit Temple </h3>
-                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31102.57982346927!2d77.56370533220213!3d12.983203516967256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3ded0b360e07%3A0x7a7fb24a41a6b2b3!2sISKCON%20Bangalore!5e0!3m2!1sen!2sin!4v1746428349694!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
+                 <img src="https://th.bing.com/th?q=Tourist+City&w=120&h=120&c=1&rs=1&qlt=70&o=7&cb=1&dpr=1.3&pid=InlineBlock&rm=3&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247" alt="">
             </div>
         </div>
 
